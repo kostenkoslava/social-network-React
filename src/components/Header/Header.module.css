@@ -1,6 +1,16 @@
 .header {
-    grid-area: h;
-    background-color: blue;
+  position:fixed;
+  width: 100%;
+  background: rgb(108 115 140); margin: 0; padding: 2em 2em 10em; color:white;
+  text-align:center;
+ 
+  clip-path: polygon(
+    0 0,
+    200% -250%,
+    80% 70%,
+    0 30%
+  );
+  z-index: 3;
   }
   
 .header img {

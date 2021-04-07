@@ -1,9 +1,28 @@
-.content {
+.postsBlock {
     grid-area: c;
-    background-color: rgb(195, 148, 238);
+    padding-left: 15px;
   }
   
   .img__main img {
     width: 100%;
     max-height: 200px;
   }
+  .buttonAdd button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display:inline-block;
+    border:0.1em solid #a89cec;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#111010;
+    text-align:center;
+    transition: all 0.2s;
+}
+button:hover{
+  color:#000000;
+  background-color:#FFFFFF;
+}

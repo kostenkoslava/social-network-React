@@ -1,0 +1,12 @@
+.friend img {
+    width: 50px;
+}
+
+.friend span {
+    display: inline-block;
+}
+
+.friendsItems {
+    display: flex;
+    justify-content: space-between;
+}
